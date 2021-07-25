@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div id="calculator_border">
+      <div id="calculator">
+        <div id="previous_numbers"></div>
+        <div id="number"></div>
+        <div id="buttons">
+          <button id="clear" onclick="clear_all()">C</button>
+          <button id="clear_one" onclick="clear_Entry()">CE</button>
+          <button id="remainder" class="operator" onclick="setPrevious('%')">
+            %
+          </button>
+          <button id="divide" class="operator" onclick="setPrevious('/')">
+            &divide;
+          </button>
+          <button class="numbers" onclick="setNumber('7')">7</button>
+          <button class="numbers" onclick="setNumber('8')">8</button>
+          <button class="numbers" onclick="setNumber('9')">9</button>
+          <button id="multiply" class="operator" onclick="setPrevious('*')">
+            &Cross;
+          </button>
+          <button class="numbers" onclick="setNumber('4')">4</button>
+          <button class="numbers" onclick="setNumber('5')">5</button>
+          <button class="numbers" onclick="setNumber('6')">6</button>
+          <button id="subtract" class="operator" onclick="setPrevious('-')">
+            -
+          </button>
+          <button class="numbers" onclick="setNumber('1')">1</button>
+          <button class="numbers" onclick="setNumber('2')">2</button>
+          <button class="numbers" onclick="setNumber('3')">3</button>
+          <button class="numbers" class="operator" onclick="setPrevious('+')">
+            +
+          </button>
+          <button
+            id="toggle_calculator"
+            title="Dark"
+            onclick="toggle_calculator()"
+          >
+            <span id="toggle_on"
+              ><i style="font-size: 24px" class="fa">&#xf204;</i></span
+            ><span id="toggle_off"
+              ><i style="font-size: 24px" class="fa">&#xf205;</i></span
+            >
+          </button>
+          <button class="numbers" onclick="setNumber('0')">0</button>
+          <button id="toggle_background" title="Background" onclick="background_theme()">
+            <i style="font-size:24px" class="fa">&#xf192;</i>
+          </button>
+          <button id="equal" onclick="calculate()">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="calculator.js"></script>
+</html>

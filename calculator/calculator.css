@@ -1,0 +1,123 @@
+
+@media only screen and (max-height: 550px) {
+  button {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 12px !important;
+  }
+  #calculator {
+    width: 300px !important;
+  }
+   #calculator_border{
+    width: 320px !important;
+    height:490px!important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  button {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 10px !important;
+  }
+  #previous_numbers {
+    padding-top: 10px !important;
+    height: 30px !important;
+    padding-right: 11px !important;}
+    #number{
+      height: 30px !important;
+      padding-right: 11px !important;
+    }
+  #calculator {
+    width: 240px !important;
+  }
+   #calculator_border{
+    width: 260px !important;
+    height:400px!important;
+  }
+}
+
+html {
+  min-height: 100%;
+}
+body{
+  margin: 0;
+}
+#calculator_border {
+  border: 2px black solid;
+  width: 370px;
+  margin: auto;
+  margin-top: 10px;
+  height: 580px;
+  box-shadow: 0 0 20px 2px black;
+}
+#calculator {
+  background: whitesmoke;
+  margin: auto;
+  margin-top: 10px;
+  width: 360px;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+#previous_numbers {
+  padding-top: 20px;
+  height: 40px;
+  padding-right: 21px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+  color: slategray;
+  overflow: hidden;
+}
+#number {
+  overflow: hidden;
+  font-size: 25px;
+  font-weight: 700;
+  height: 40px;
+  padding-right: 21px;
+  text-align: right;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin: 15px;
+  border: 0;
+  border-radius: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+
+button:nth-child(8),
+button:nth-child(4),
+button:nth-child(12),
+button:nth-child(16),
+button:nth-child(1),
+button:nth-child(2),
+button:nth-child(3) {
+  background: radial-gradient(
+    circle at 30% 110%,
+    skyblue 20%,
+    cornflowerblue 50%,
+    blue 100%
+  );
+}
+button:nth-child(20) {
+  background: radial-gradient(circle at 30% 110%, yellow 50%, orange 80%);
+}
+
+button {
+  opacity: 0.7;
+}
+button:hover {
+  opacity: 1;
+}
+button:active {
+  font-size: 25px;
+}
+#toggle_off{
+  display: none;
+}

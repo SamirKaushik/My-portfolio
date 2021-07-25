@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3SCHOOLS CLONE</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="w3school_clone.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Freckle+Face:regular);
+      @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic);
+    
+    </style>
+  </head>
+  <body style="font-family: 'Source Sans Pro', sans-serif">
+    <div class="header">
+      <span class="left-header"
+        ><span class="logo">
+          <a href="w3school_clone.html" title="HOME" class="logo"
+            >
+          <img src="w3schools_logo_dark.png" alt="HOME" class="dark_logo">
+        </a>
+         
+        </span>
+        <button class="menu">Menu<span class="down-arrow">&dtrif;</span><span class="up-arrow">&#9652;</span></button>
+        <button class="tut">Tutorials<span class="down-arrow">&dtrif;</span><span class="up-arrow">&#9652;</span>
+          <div class="dropdown tutorials">
+            <div class="close" tabindex=4><i class="material-icons">close </i></div>
+          <div><h3 class="dropdown-heading">Tutorials</h3></div>
+          <div class="dropdown-content">
+            <div class="dropdown-content-sub-parts">
+            <ul>
+            <li><h3 class="list-heading">HTML and CSS</h3></li>
+            <li class="list-items">Learn HTML</li>
+            <li class="list-items">Learn CSS</li>
+            <li class="list-items">Learn Bootstrap</li>
+            <li class="list-items">Learn W3.CSS</li>
+            <li class="list-items">Learn Colors</li>
+            <li class="list-items">Learn Icons</li>
+            <li class="list-items">Learn Graphics</li>
+            <li class="list-items">Learn SVG</li>
+            <li class="list-items">Learn Canvas</li>
+            <li class="list-items">Learn How To</li>
+            <li class="list-items">Learn Sass</li>
+    
+          </ul>
+        </div>
+          <div class="dropdown-content-sub-parts">
+          <ul>
+            <li><h3 class="list-heading">JavaScript</h3></li>
+            <li class="list-items">Learn JavaScript</li>
+            <li class="list-items">Learn jQuery</li>
+            <li class="list-items">Learn React</li>
+            <li class="list-items">Learn AngularJS</li>
+            <li class="list-items">Learn JSON</li>
+            <li class="list-items">Learn AJAX</li>
+            <li class="list-items">Learn AppML</li>
+            <li class="list-items">Learn W3.JS</li>
+    
+          </ul>
+          <ul>
+            <li><h3 class="list-heading">Programming</h3></li>
+            <li class="list-items">Learn Python</li>
+            <li class="list-items">Learn Java</li>
+            <li class="list-items">Learn C++</li>
+            <li class="list-items">Learn C#</li>
+            <li class="list-items">Learn R</li>
+    
+          </ul>
+        </div>
+        <div class="dropdown-content-sub-parts">
+          <ul>
+            <li><h3 class="list-heading">Server Side</h3></li>
+            <li class="list-items">Learn SQL</li>
+            <li class="list-items">Learn MySQL</li>
+            <li class="list-items">Learn PHP</li>
+            <li class="list-items">Learn ASP</li>
+            <li class="list-items">Learn Node.js</li>
+            <li class="list-items">Learn Raspberry Pi</li>
+            <li class="list-items">Learn Git</li>
+    
+          </ul>
+          <ul>
+            <li><h3 class="list-heading">Web Building</h3></li>
+            <li class="list-items">Web Templates</li>
+            <li class="list-items">Web Statistics</li>
+            <li class="list-items">Web Certificates</li>
+            <li class="list-items">Web Editor</li>
+            <li class="list-items">Web Developement</li>
+            <li class="list-items">Test Your Typing Speed</li>
+            <li class="list-items">Play a Code Game</li>
+            <li class="list-items">Cyber Security</li>
+            <li class="list-items">Accessibility</li>
+            <li class="list-items">Statistics</li>
+    
+          </ul>
+        </div>
+        <div class="dropdown-content-sub-parts">
+          <ul>
+            <li><h3 class="list-heading">Artificial Intelligence</h3></li>
+            <li class="list-items">Learn AI</li>
+            <li class="list-items">Learn Machine Learning</li>
+            <li class="list-items">Learn Data Science</li>
+            <li class="list-items">Learn NumPy</li>
+            <li class="list-items">Learn Pandas</li>
+            <li class="list-items">Learn SciPy</li>
+    
+          </ul>
+          <ul>
+            <li><h3 class="list-heading">XML Tutorials</h3></li>
+            <li class="list-items">Learn XML</li>
+            <li class="list-items">Learn XML AJAX</li>
+            <li class="list-items">Learn XML DOM</li>
+            <li class="list-items">Learn XML DTD</li>
+            <li class="list-items">Learn XML Schema</li>
+            <li class="list-items">Learn XSLT</li>
+            <li class="list-items">Learn XPath</li>
+            <li class="list-items">Learn XQuery</li>
+    
+          </ul>
+        </div>
+        </div>
+        </div>
+      </button>
+        <button class="ref">References<span class="down-arrow">&dtrif;</span><span class="up-arrow">&#9652;</span>
+          <div class="dropdown references">
+            <div class="close" tabindex=4><i class="material-icons">close</i></div>
+            <div><h3 class="dropdown-heading">References</h3></div>
+            <div class="dropdown-content">
+            <div class="dropdown-content-sub-parts">
+            <ul>
+              <li><h3 class="list-heading">HTML</h3></li>
+              <li class="list-items">HTML Tag References</li>
+              <li class="list-items">HTML Browser Support</li>
+              <li class="list-items">HTML Event Reference</li>
+              <li class="list-items">HTML Color Reference</li>
+              <li class="list-items">HTML Attribute Reference</li>
+              <li class="list-items">HTML Canvas Reference</li>
+              <li class="list-items">HTML SVG Reference</li>
+              <li class="list-items">Google Maps Reference</li>
+      
+            </ul>
+            <ul>
+              <li><h3 class="list-heading">CSS</h3></li>
+              <li class="list-items">CSS Reference</li>
+              <li class="list-items">CSS Browser Support</li>
+              <li class="list-items">CSS Selector Reference</li>
+              <li class="list-items">Bootstrap 3 Reference</li>
+              <li class="list-items">Bootstrap 4 Reference</li>
+              <li class="list-items">W3.CSS Reference</li>
+              <li class="list-items">Icon Reference</li>
+              <li class="list-items">Sass Reference</li>
+      
+            </ul>
+          </div>
+          <div class="dropdown-content-sub-parts">
+            <ul>
+              <li><h3 class="list-heading">JavaScript</h3></li>
+              <li class="list-items">JavaScript Reference</li>
+              <li class="list-items">HTML DOM Reference</li>
+              <li class="list-items">jQuery Reference</li>
+              <li class="list-items">AngularJS Reference</li>
+              <li class="list-items">AppML Reference</li>
+              <li class="list-items">W3.JS Reference</li>
+            </ul>
+            <ul>
+              <li><h3 class="list-heading">Programming</h3></li>
+              <li class="list-items">Pyhton Reference</li>
+              <li class="list-items">Java Reference</li>
+              
+      
+            </ul>
+          </div>
+          <div class="dropdown-content-sub-parts">
+            <ul>
+              <li><h3 class="list-heading">Server Side</h3></li>
+              <li class="list-items">SQL Reference</li>
+              <li class="list-items">MySQL Reference</li>
+              <li class="list-items">PHP Reference</li>
+              <li class="list-items">ASP Reference</li>
+      
+            </ul>
+            <ul>
+              <li><h3 class="list-heading">XML</h3></li>
+              <li class="list-items">XML DOM Reference</li>
+              <li class="list-items">XML Http Reference</li>
+              <li class="list-items">XSLT Reference</li>
+              <li class="list-items">XML Schema Reference</li>
+            </ul>
+          </div>
+          <div class="dropdown-content-sub-parts">
+            <ul>
+            <li><h3 class="list-heading">Character Sets</h3></li>
+            <li class="list-items">HTML Character Sets</li>
+              <li class="list-items">HTML ASCII</li>
+              <li class="list-items">HTML ANSI</li>
+              <li class="list-items">HTML Windows-1252</li>
+              <li class="list-items">HTML ISO-8859-1</li>
+              <li class="list-items">HTML Symbols</li>
+              <li class="list-items">HTML UTF-8</li>
+    
+          </ul>
+        </div>
+          </div>
+          </div>
+        </button>
+        <button class="ex">Exercises<span class="down-arrow">&dtrif;</span><span class="up-arrow">&#9652;</span>
+          <div class="dropdown exercises">
+            <div class="close" tabindex=4><i class="material-icons">close</i></div>
+            <div><h3 class="dropdown-heading">Exercises</h3></div>
+            <div class="dropdown-content">
+              <div class="dropdown-content-sub-parts">
+              <ul>
+              <li><h3 class="list-heading">Exercises</h3></li>
+              <li class="list-items">HTML Exercises</li>
+              <li class="list-items">CSS  Exercises</li>
+              <li class="list-items">JavaScript Exercises</li>
+              <li class="list-items">SQL Exercises</li>
+              <li class="list-items">MySQL Exercises</li>
+              <li class="list-items">PHP Exercises</li>
+              <li class="list-items">NumPy Exercises</li>
+              <li class="list-items">Pandas Exercises</li>
+              <li class="list-items">SciPy Exercises</li>
+              <li class="list-items">jQuery Exercises</li>
+              <li class="list-items">Java Exercises</li>
+              <li class="list-items">Bootstrap Exercises</li>
+              <li class="list-items">Bootstrap 4 Exercises</li>
+              <li class="list-items">C++ Exercises</li>
+              <li class="list-items">C# Exercises</li>
+              <li class="list-items">R Exercises</li>
+              <li class="list-items">Git Exercises</li>
+      
+            </ul>
+          </div>
+          <div class="dropdown-content-sub-parts">
+            <ul>
+            <li><h3 class="list-heading">Quizzes</h3></li>
+            <li class="list-items">HTML Quiz</li>
+            <li class="list-items">CSS Quiz</li>
+            <li class="list-items">JavaScript Quiz</li>
+            <li class="list-items">SQL Quiz</li>
+            <li class="list-items">MySQL Quiz</li>
+            <li class="list-items">PHP Quiz</li>
+            <li class="list-items">Python Quiz</li>
+            <li class="list-items">NumPy Quiz</li>
+            <li class="list-items">Pandas Quiz</li>
+            <li class="list-items">SciPy Quiz</li>
+            <li class="list-items">jQuery Quiz</li>
+            <li class="list-items">Java Quiz</li>
+            <li class="list-items">Bootstrap Quiz</li>
+            <li class="list-items">Bootstrap 4 Quiz</li>
+            <li class="list-items">C++ Quiz</li>
+            <li class="list-items">C# Quiz</li>
+            <li class="list-items">R Quiz</li>
+            <li class="list-items">XML Quiz</li>
+            <li class="list-items">Cyber Security Quiz</li>
+            <li class="list-items">Accessibility Quiz</li>
+    
+          </ul>
+        </div>
+        <div class="dropdown-content-sub-parts">
+          <ul>
+            <li><h3 class="list-heading">Courses</h3></li>
+            <li class="list-items">HTML Course</li>
+            <li class="list-items">CSS Course</li>
+            <li class="list-items">JavaScript Course</li>
+            <li class="list-items">Front End Course</li>
+            <li class="list-items">SQL Course</li>
+            <li class="list-items">Python Course</li>
+            <li class="list-items">NumPy Course</li>
+            <li class="list-items">Pandas Course</li>
+            <li class="list-items">jQuery Course</li>
+            <li class="list-items">PHP Course</li>
+            <li class="list-items">C# Course</li>
+            <li class="list-items">C++ Course</li>
+            <li class="list-items">XML Course</li>
+            <li class="list-items">R Course</li>
+            <li class="list-items">Cyber Security Course</li>
+            <li class="list-items">Accessibility Course</li>
+          </ul>
+      </div>
+          </div>
+          </div>
+        </button></span
+      >
+      <span class="right-header"
+        >
+       <!-- <button class="toggle" id="remove600" title="Toggle Dark Mode"><i class="fa toggle">	&#xf192;</i>
+        
+        </button>-->
+        <button class="search"><i class="fa search">&#xf002;</i>
+           <div class="search-box">
+             <input type="text" class="search-text" title="search" style="background: url(https://www.google.com/cse/static/images/1x/en/branding.png) left 10px center no-repeat rgb(255, 255, 255);">
+             <div class="search-button"><i class="fa search-button-icon">&#xf002;</i></div>
+           </div>
+          </button>
+        <span class="pc">Paid Courses</span>
+        <span class="login">Log in</span></span
+      >
+    </div>
+    <div class="contents">
+      <div class="content-1">
+        <div class="box-1">
+          <h1 style="font-size: 100px; font-weight: 700">HTML</h1>
+          <p style="font-size: 19px">The language for building web pages</p>
+          <div class="button-1">Learn HTML</div>
+          
+          
+            <div class="button-2">HTML Reference</div>
+          
+        </div>
+        <div class="box-2" id="remove600">
+          <h3>HTML Example:</h3>
+          <div class="try_it_box">
+            <span class="tag">&lt;</span><span class="element">!DOCTYPE </span>
+            <span class="property">html</span><span class="tag">&gt;</span
+            ><br />
+            <span class="tag">&lt;</span><span class="element">html</span
+            ><span class="tag">&gt;</span><br />
+            <span class="tag">&lt;</span><span class="element">title</span
+            ><span class="tag">&gt;</span><span class="text">HTML Tutorial</span
+            ><span class="tag">&lt;</span><span class="element">/title</span
+            ><span class="tag">&gt;</span><br />
+            <span class="tag">&lt;</span><span class="element">body</span
+            ><span class="tag">&gt;</span><br /><br />
+            <span class="tag">&lt;</span><span class="element">h1</span
+            ><span class="tag">&gt;</span
+            ><span class="text">This is a heading</span
+            ><span class="tag">&lt;</span><span class="element">/h1</span
+            ><span class="tag">&gt;</span><br />
+            <span class="tag">&lt;</span><span class="element">p</span
+            ><span class="tag">&gt;</span>
+            <span class="text">This is a paragraph.</span
+            ><span class="tag">&lt;</span><span class="element">/p</span
+            ><span class="tag">&gt;</span><br /><br />
+            <span class="tag">&lt;</span><span class="element">/body</span
+            ><span class="tag">&gt;</span><br />
+            <span class="tag">&lt;</span><span class="element">/html</span
+            ><span class="tag">&gt;</span>
+          </div>
+          <div class="try_it_yourself">Try it Yourself</div>
+          
+        </div>
+      </div>
+      <div class="content-2">
+        <div class="box-1">
+          <h1 style="font-size: 100px; font-weight: 700">CSS</h1>
+          <p style="font-size: 19px">The language for styling web pages</p>
+          <div class="button-1">Learn CSS</div>
+          
+
+          <div class="button-2">CSS Reference</div>
+          
+        </div>
+        <div class="box-2"id="remove600">
+          <h3>CSS Example:</h3>
+          <div class="try_it_box">
+            <span class="element">body </span><span class="text">{ </span><br />
+            <span style="margin-left: 20px"
+              ><span class="property"> background-color</span
+              ><span class="text">: </span>
+              <span class="property-value">lightblue</span
+              ><span class="text">;</span></span
+            ><br />
+            <span class="text">}</span><br /><br />
+            <span class="element">h1 </span><span class="text">{</span><br />
+            <span style="margin-left: 20px"
+              ><span class="property"> color</span><span class="text">: </span
+              ><span class="property-value">white</span
+              ><span class="text">;</span></span
+            ><br />
+            <span style="margin-left: 20px"
+              ><span class="property"> text-align</span
+              ><span class="text">: </span
+              ><span class="property-value">center</span
+              ><span class="text">;</span></span
+            ><br /><span class="text">}</span>
+          </div>
+          <div class="try_it_yourself">Try it Yourself</div>
+          
+        </div>
+      </div>
+      <div class="content-3">
+        <div class="box-1">
+          <h1 style="font-size: 70px; font-weight: 700">JavaScript</h1>
+          <p style="font-size: 19px">The language for programming web pages</p>
+          <div class="button-1">Learn JavaScript</div>
+          
+         <div class="button-2">JavaScript Reference</div>
+          
+        </div>
+        <div class="box-2" id="remove600">
+          <h3>JavaScript Example:</h3>
+          <div class="try_it_box">
+            <span class="tag">&lt;</span><span class="element">button</span>
+            <span class="property">onclick</span
+            ><span class="property-value">="myFunction()"</span
+            ><span class="tag">&gt;</span><span class="text">Click me!</span
+            ><span class="tag">&lt;</span><span class="element">/button</span
+            ><span class="tag">&gt;</span> <br /><br />
+            <span class="tag">&lt;</span><span class="element">script</span
+            ><span class="tag">&gt;</span><br />
+            <span class="property-value">function</span>
+            <span class="text">myFunction() {</span><br />
+            <span style="margin-left: 17px"
+              ><span class="property-value">var</span
+              ><span class="text"> x = document.getElementById(</span
+              ><span class="element">"demo"</span
+              ><span class="text">);</span></span
+            ><br />
+            <span style="margin-left: 17px"
+              ><span class="text">x.style.fontSize = </span
+              ><span class="element">"25px"</span
+              ><span class="text">;</span></span
+            ><br />
+            <span style="margin-left: 17px"
+              ><span class="text">x.style.color = </span
+              ><span class="element">"red"</span
+              ><span class="text">;</span></span
+            ><br /><span class="text">}</span><br />
+            <span class="tag">&lt;</span><span class="element">/script</span
+            ><span class="tag">&gt;</span><br />
+          </div>
+          <div class="try_it_yourself">Try it Yourself</div>
+          
+        </div>
+      </div>
+      <div class="content-4">
+        <div class="box-1">
+          <h1 style="font-size: 80px; font-weight: 700">PYTHON</h1>
+          <p style="font-size: 19px">A popular programming language</p>
+          <div class="button-1">Learn Python</div>
+          
+          <div class="button-2">Python Reference</div>
+          
+        </div>
+        <div class="box-2" id="remove600">
+          <h3>Python Example:</h3>
+          <div class="try_it_box">
+            <span class="property-value">if </span>
+            <span class="property"> 5 </span> <span class="text"> &gt; </span>
+            <span class="property"> 2</span><span class="text">:</span><br />
+            <span style="margin-left: 17px"
+              ><span class="text">print(</span
+              ><span class="element">"Five is greater than two!"</span
+              ><span class="text">)</span></span
+            >
+          </div>
+          <div class="try_it_yourself">Try it Yourself</div>
+          
+        </div>
+      </div>
+      <div class="content-5">
+        <div class="box-1">
+          <h1 style="font-size: 80px; font-weight: 700">SQL</h1>
+          <p style="font-size: 19px">A language for accessing databses</p>
+         
+            <div class="button-1">Learn SQL</div>
+          
+          <div class="button-2">SQL Reference</div>
+          
+        </div>
+        <div class="box-2" id="remove600">
+          <h3>SQL Example:</h3>
+          <div class="try_it_box">
+            <span class="property-value">SELECT </span>
+            <span class="text"> * </span>
+            <span class="property-value"> FROM </span>
+            <span class="text">Customers</span><br />
+            <span class="property-value">where </span>
+            <span class="text"> Country=</span
+            ><span class="element">'Mexico'</span><span class="text">;</span>
+          </div>
+          <div class="try_it_yourself">Try it Yourself</div>
+          
+        </div>
+      </div>
+      <div class="content-6">
+        <div class="upper-box">
+          <div class="box-1">
+            <h2 style="font-size: 45px; font-weight: 700">PHP</h2>
+            <p style="font-size: 17px; margin-bottom: 35px">
+              A web server programming language
+            </p>
+            <div class="button">Learn PHP</div>
+            
+          </div>
+          <div class="box-2">
+            <h2 style="font-size: 45px; font-weight: 700">jQuery</h2>
+            <p style="font-size: 17px; margin-bottom: 35px">
+              A JS library for developing web pages
+            </p>
+            <div class="button">Learn jQuery</div>
+            
+          </div>
+        </div>
+        <div class="lower-box">
+          <div class="box-3">
+            <h2 style="font-size: 45px; font-weight: 700">Java</h2>
+            <p style="font-size: 17px; margin-bottom: 35px">
+              A programming language
+            </p>
+            <div class="button">Learn Java</div>
+            
+          </div>
+          <div class="box-4">
+            <h2 style="font-size: 45px; font-weight: 700">C++</h2>
+            <p style="font-size: 17px; margin-bottom: 35px">
+              A programming language
+            </p>
+            <div class="button">Learn C++</div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="content-7">
+        <div class="box-1">
+          <h2 style="font-size: 45px; font-weight: 700">W3.CSS</h2>
+          <p style="font-size: 19px; font-weight: 600; text-align: center">
+            A modern CSS framework for faster and better responsive web pages
+          </p>
+          <div class="green-button">LEARN W3.CSS</div>
+        </div>
+        <div class="box-2">
+          <h2 style="font-size: 45px; font-weight: 700">Color Picker</h2>
+          <a
+            
+            class="color_picker_hover"
+            ><img
+              style="width: 150px; height: 128px; margin-top: 24px"
+              src="https://www.w3schools.com/images/colorpicker.png"
+              alt="Colorpicker"
+          /></a>
+        </div>
+        <div class="box-3">
+          <h2 style="font-size: 45px; font-weight: 700">Bootstrap</h2>
+          <p style="font-size: 19px; font-weight: 600; text-align: center">
+            A CSS framework for designing better web pages
+          </p>
+          <div class="green-button">LEARN BS3</div>
+          <div class="green-button">LEARN BS4</div>
+        </div>
+      </div>
+      <div class="content-8">
+        <h2
+          style="
+            font-size: 48px;
+            font-weight: 550;
+            margin: 0px;
+            font-family: 'Freckle Face', cursive;
+          "
+        >
+          Code Game
+        </h2>
+        <h3
+          style="
+            font-size: 30px;
+            font-weight: 450;
+            text-align: center;
+            margin-top: 0px;
+            font-family: 'Freckle Face', cursive;
+          "
+        >
+          Help the Lynx collect pine cones!
+        </h3>
+        <a
+          
+          class="fox"
+          ><img
+            style="margin: 16px 0"
+            src="https://www.w3schools.com/images/w3lynx_200.png"
+            alt="Code Game"
+        /></a>
+        <div class="black-button">Play Game</div>
+        
+      </div>
+      <div class="content-9">
+        <h2 style="font-size: 45px; font-weight: 700; text-align: center">
+          Exercises
+        </h2>
+        <p style="font-size: 19px; font-weight: 600; text-align: center">
+          Test yourself with exercises
+        </p>
+        <div class="exercises">
+          <div class="top-exercises">
+            <div class="exercises-button exercises-button-1">
+                HTML Exercises
+              </div>
+            
+            <div class="exercises-button exercises-button-1">
+                CSS Exercises
+              </div>
+            
+            <div class="exercises-button exercises-button-1">
+                JavaScript Exercises
+              </div>
+            
+          </div>
+          <div class="bottom-exercises">
+            <div class="exercises-button exercises-button-2">SQL</div>
+            
+            <div class="exercises-button exercises-button-2">Python</div>
+            
+            <div class="exercises-button exercises-button-2">PHP</div>
+            
+            <div class="exercises-button exercises-button-2" id="remove600">jQuery</div>
+            
+            <div class="exercises-button exercises-button-2" id="remove600">Java</div>
+            
+            <div class="exercises-button exercises-button-2" id="remove">C++</div>
+            
+            <div class="exercises-button exercises-button-2" id="remove">C#</div>
+          </div>
+        </div>
+      </div>
+      <div class="content-10">
+        <h2 style="font-size: 45px; font-weight: 700; text-align: center">
+          Web Templates
+        </h2>
+        <p style="font-size: 20px; font-weight: 600; text-align: center">
+          Browse our selection of <b>free</b> responsive HTML Templates
+        </p>
+          <div class="template" style="text-align: center;">
+            <img src="https://www.w3schools.com/w3css_templates.jpg"></div>
+          <div id="learn-how-to">BROWSE TEMPLATES</div>
+        </div>
+      </div>
+      <div class="content-11">
+        <h2 style="font-size: 45px; font-weight: 700;">
+          Kickstart your career
+        </h2>
+        <p style="font-size: 40px; font-weight: 600;">
+          Get certified by completing a course
+        </p>
+        <div id="get-started">Get Started</div></div>
+      </div>
+      <div class="content-12">
+        <h2 style="font-size: 45px; font-weight: 700; text-align: center">
+          How To Section
+        </h2>
+        <p style="font-size: 20px; font-weight: 600; text-align: center">
+          Code snippets for HTML, CSS and JavaScript
+        </p>
+        <div id="learn-how-to">LEARN HOW TO</div></div>
+      </div>
+      <div class="content-13">
+        <div class="box-1">
+          <span class="bottom-white-buttons">
+          <span class="bottomlink-button">COURSES</span>
+          <span class="bottomlink-button">QUIZZES</span>
+          <span class="bottomlink-button">EXERCISES</span></span>
+
+          <span class="forum-about">
+          <span class="forum">F O R U M</span>
+          <span>|</span>
+          <span class="about">A B O U T</span>
+          </span>
+          <div class="icons">
+            <i class="fa facebook-icon">&#xf082;</i>
+            <i class="fa instagram-icon">&#xf16d;</i>
+            <i class="fa linkedin-icon">&#xf08c;</i></div>
+        </div>
+        <div class="box-1-same">
+          <div class="bottom-white-buttons">
+            <div class="bottomlink-button">COURSES</div>
+          <div class="bottomlink-button">QUIZZES</div>
+          <div class="bottomlink-button">EXERCISES</div></div>
+
+          <div class="forum-about">
+          <span class="forum">F O R U M</span>
+          <span>|</span>
+          <span class="about">A B O U T</span>
+          </div>
+          
+        
+        <div class="icons">
+        <i class="fa facebook-icon" style="font-size: 20px;">&#xf082;</i>
+        <i class="fa instagram-icon" style="font-size: 20px;">&#xf16d;</i>
+        <i class="fa linkedin-icon" style="font-size: 20px;">&#xf08c;</i>
+          </div></div>
+          <div class="box-3" style="text-align: center;"><p style="text-align: center; font-weight: 600; font-size: 15px;">
+            W3Schools is optimized for learning, testing, and training. Examples
+            might be simplified to improve reading and basic understanding.
+            Tutorials, references, and examples are constantly reviewed to avoid
+            errors, but we cannot warrant full correctness of all content. While
+            using this site, you agree to have read and accepted our <a style="text-decoration: underline" class="tou_cpp_cr"> terms of
+            use</a>,<a style="text-decoration: underline" class="tou_cpp_cr"> cookie and privacy policy</a>. <a style="text-decoration: underline" class="tou_cpp_cr"> Copyright 1999-2021</a> by Refsnes Data.
+            All Rights Reserved.
+          </p>
+          <div><i class="fa thumbs" style="color: white; font-size: 35px!important;">&#xf087;</i></div>
+          <div id="bottom-most-button">W3SCHOOLS SHOP</div></div>
+        </div>
+      </div>
+      <a href="index.html" style="text-decoration: none;">
+        <div style=" background-color: #282a35;color: white; text-align: center; padding: 10px; font-size: 25px; font-weight: bolder;"
+        class="samir">Made by SAMIR KAUSHIK(See Portfolio)</div>
+        </a>
+    </div>
+  </body>
+</html>

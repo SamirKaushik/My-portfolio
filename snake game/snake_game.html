@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link href="https://css.gg/arrow-down-o.css" rel="stylesheet" />
+    <link href="https://css.gg/arrow-up-o.css" rel="stylesheet" />
+    <link href="https://css.gg/arrow-left-o.css" rel="stylesheet" />
+    <link href="https://css.gg/arrow-right-o.css" rel="stylesheet" />
+
+    <style>
+      @media only screen and (max-width: 600px) {
+        #buttons {
+          display: flex !important;
+          justify-content: center;
+        }
+        #buttons div:nth-child(2) {
+          display: flex;
+          flex-direction: column;
+        }
+        #buttons div:nth-child(1), #buttons div:nth-child(3){
+            display: flex;
+            align-items: center;
+        }  
+        .button {
+          border-radius: 20px;
+          margin: 10px;
+          padding: 25px;
+          opacity: 0.4;
+          background-color:white;
+        }
+        .button:hover{
+          box-shadow: 0 0 5px black;
+        }
+      }
+      html {
+        min-width: fit-content;
+      }
+      canvas {
+        display: block;
+        margin: 0 auto;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #578a34;
+      }
+      #buttons {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="snake" width="590" height="590"></canvas>
+    <div id="buttons">
+      <div>
+        <div class="button" style="font-size: 30px" onmousedown="set_d('LEFT')">
+          <i class="gg-arrow-left-o"></i>
+        </div>
+      </div>
+      <div>
+        <div class="button" style="font-size: 30px" onmousedown="set_d('UP')">
+          <i class="gg-arrow-up-o"></i></div
+        ><div class="button" style="font-size: 30px" onmousedown="set_d('DOWN')">
+          <i class="gg-arrow-down-o"></i>
+        </div>
+      </div>
+      <div>
+        <div class="button" style="font-size: 30px" onmousedown="set_d('RIGHT')">
+          <i class="gg-arrow-right-o"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="snake_game.js"></script>
+</html>
