@@ -1,121 +1,151 @@
-@media only screen and (max-width: 950px){
-  body{
-    background: radial-gradient(circle at 75% 20%, white 4% , skyblue 50%, cornflowerblue 100%)!important;
+@media only screen and (max-width: 950px) {
+  body {
+    background: radial-gradient(
+      circle at 75% 20%,
+      white 4%,
+      skyblue 50%,
+      cornflowerblue 100%
+    ) !important;
   }
-  .content{flex-direction: column-reverse!important;}
-  .about-me{
-      width: 90.99% !important;
-      margin: auto;
-      margin-top: 0px!important;
+  .content {
+    flex-direction: column-reverse !important;
   }
-  .svg{
-      width: 77% !important;
-      margin: auto;
+  .about-me {
+    width: 90.99% !important;
+    margin: auto;
+    margin-top: 0px !important;
   }
-  .content{
-      margin:0px 0px!important;
+  .svg {
+    width: 77% !important;
+    margin: auto;
+  }
+  .content {
+    margin: 0px 0px !important;
   }
 }
-@media only screen and (max-width: 500px){
-  body{
-    background: radial-gradient(circle at 65% 15%, white 4% , skyblue 50%, cornflowerblue 100%)!important;
+@media only screen and (max-width: 500px) {
+  body {
+    background: radial-gradient(
+      circle at 65% 15%,
+      white 4%,
+      skyblue 50%,
+      cornflowerblue 100%
+    ) !important;
   }
-  div.header div.social-media{
-    margin-right: 4px!important;
+  div.header div.social-media {
+    margin-right: 4px !important;
   }
-  .svg{
+  .svg {
     width: 85% !important;
     margin: auto;
-}
-  .about-me h1{
-    font-size: 50px!important;
   }
-  .about-me h3{
-    font-size: 35px!important;
+  .about-me h1 {
+    font-size: 50px !important;
   }
-  .about-me p{
-    font-size: 25px!important;
+  .about-me h3 {
+    font-size: 35px !important;
+  }
+  .about-me p {
+    font-size: 25px !important;
   }
 }
 
-
-@media only screen and (max-width: 432px){
-  body{
-    background: radial-gradient(circle at 70% 9%, white 4% , skyblue 50%, cornflowerblue 100%)!important;
+@media only screen and (max-width: 432px) {
+  body {
+    background: radial-gradient(
+      circle at 70% 9%,
+      white 4%,
+      skyblue 50%,
+      cornflowerblue 100%
+    ) !important;
   }
-  .svg{
+  .svg {
     width: 90% !important;
     margin: auto;
-}
-  div.social-media{
-    display:none;
   }
-  div.social-media-{
-    display: inline-block!important;
-    float: none!important;
-    margin-bottom: 10px!important;
+  div.social-media {
+    display: none;
+  }
+  div.social-media- {
+    display: inline-block !important;
+    float: none !important;
+    margin-bottom: 10px !important;
     padding: 6px 12.39px;
     margin: 1px 4px;
   }
-  div.social-media-bottom{
+  div.social-media-bottom {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
 }
-@media only screen and (max-width: 350px){
-  .svg{
+@media only screen and (max-width: 350px) {
+  .svg {
     width: 95% !important;
     margin: auto;
+  }
+  body {
+    background: radial-gradient(
+      circle at 70% 20%,
+      white 4%,
+      skyblue 50%,
+      cornflowerblue 100%
+    ) !important;
+  }
+  div.about-me h1 {
+    font-size: 40px !important;
+  }
+  div.about-me h3 {
+    font-size: 27px !important;
+  }
+  div.about-me p {
+    font-size: 18px !important;
+  }
 }
-  body{
-    background: radial-gradient(circle at 70% 20%, white 4% , skyblue 50%, cornflowerblue 100%)!important;
-  }
-  div.about-me h1{
-    font-size: 40px!important;
-  }
-  div.about-me h3{
-    font-size: 27px!important;
-  }
-  div.about-me p{
-    font-size: 18px!important;
-  }
-}
-@media only screen and (max-width: 263px){
-  .svg{
+@media only screen and (max-width: 263px) {
+  .svg {
     width: 99.9% !important;
     margin: auto;
+  }
+  body {
+    background: radial-gradient(
+      circle at 70% 15%,
+      white 4%,
+      skyblue 50%,
+      cornflowerblue 100%
+    ) !important;
+  }
+  div.about-me h1 {
+    font-size: 35px !important;
+  }
+  div.about-me h3 {
+    font-size: 25px !important;
+  }
+  div.about-me p {
+    font-size: 16px !important;
+  }
 }
-  body{
-    background: radial-gradient(circle at 70% 15%, white 4% , skyblue 50%, cornflowerblue 100%)!important;
-  }
-  div.about-me h1{
-    font-size: 35px!important;
-  }
-  div.about-me h3{
-    font-size: 25px!important;
-  }
-  div.about-me p{
-    font-size: 16px!important;
-  }
-}
-@media only screen and (max-width: 240px){
-  div.social-media-{
-    margin-left: 0px!important;
-    margin-right: 0px!important;
+@media only screen and (max-width: 240px) {
+  div.social-media- {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
 }
 
-html{
+html {
   min-height: 100%;
 }
-
 
 body {
   background-color: skyblue;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
-  background-image: radial-gradient(circle at 80% 40%, white 4% , skyblue 50%, cornflowerblue 100%);
+  background-image: radial-gradient(
+    circle at 80% 40%,
+    white 4%,
+    skyblue 50%,
+    cornflowerblue 100%
+  );
   background-size: cover;
 }
 .header {
@@ -134,25 +164,26 @@ body {
   margin: 5px 5px;
   font-size: 25px;
   color: white;
-  font-family: 'Source Sans Pro',sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
-  text-shadow: 0.7px 0.7px black, -0.7px 0.7px black, 0.7px -0.7px black,-0.7px -0.7px black;
+  text-shadow: 0.7px 0.7px black, -0.7px 0.7px black, 0.7px -0.7px black,
+    -0.7px -0.7px black;
 }
 .header-button:hover {
   background-color: rgb(201, 112, 82);
 }
 @keyframes move-right {
-  to{
+  to {
     margin-right: 4px;
   }
-  
 }
-div.header div.social-media{
+div.header div.social-media {
   margin-right: 20px;
   animation: move-right 1s ease-out forwards;
 }
 
-div.social-media , div.social-media-{
+div.social-media,
+div.social-media- {
   float: right;
   padding: 6px 12.39px;
   margin: 1px 4px;
@@ -160,12 +191,19 @@ div.social-media , div.social-media-{
   color: black;
   border-radius: 9000px;
 }
-div.social-media-{
+div.social-media- {
   display: none;
 }
 #insta:hover {
   color: white;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
 }
 #twitter:hover {
   color: white;
@@ -181,15 +219,16 @@ div.social-media-{
 }
 .content {
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
   margin-top: 40px;
-  
 }
 @keyframes move-up {
-  to{margin-top: 0px;}
+  to {
+    margin-top: 0px;
+  }
 }
 .about-me {
   width: 49%;
@@ -198,9 +237,8 @@ div.social-media-{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  animation: move-up 1s ease-out  forwards;
+  animation: move-up 1s ease-out forwards;
   margin-top: 80px;
-  
 }
 .about-me h1 {
   text-align: center;
@@ -214,12 +252,11 @@ div.social-media-{
   font-family: "Satisfy";
   margin: 10px 0px;
 }
-.about-me p{
-    font-family: 'Fraunces';
-    text-align: center;
-    font-size: 30px;
-    color: rgb(0, 89, 255);
-
+.about-me p {
+  font-family: "Fraunces";
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 89, 255);
 }
 .svg {
   width: 49%;
@@ -251,12 +288,11 @@ div.social-media-{
     fill: red;
   }
 }
-#buy_me_coffee{
-transition: background-color 0.6s , color 0.6s,border-color 0.6s;
+#buy_me_coffee {
+  transition: background-color 0.6s, color 0.6s, border-color 0.6s;
 }
-#buy_me_coffee:hover{
-  background-color: whitesmoke!important;
-  color:red!important;
-  border-color: red!important;
-  
+#buy_me_coffee:hover {
+  background-color: whitesmoke !important;
+  color: red !important;
+  border-color: red !important;
 }
