@@ -1,0 +1,322 @@
+@import url(https://fonts.googleapis.com/css?family=Freckle+Face:regular);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Oswald&family=Satisfy&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fraunces:ital@1&display=swap);
+@media only screen and (max-width:1171px) {
+    #skills span img {
+        margin: 15px;
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width:975px) {
+    .svg_projects_skills {
+        flex-direction: column!important;
+        flex-wrap: wrap;
+    }
+    .svg_projects_skills .svg {
+        width: 70%;
+    }
+    #skills_used {
+        width: 80%!important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    div.contents {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .svg_projects_skills .svg {
+        width: 90%;
+    }
+    #skills_used {
+        width: 95%!important;
+    }
+}
+
+@media only screen and (max-width:510px) {
+    div.header div.social-media {
+        margin-right: 4px;
+    }
+    div.box {
+        margin-left: 20px !important;
+    }
+    #skills span img {
+        margin: 12px;
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 432px) {
+    #skills_used h1 {
+        font-size: 40px!important;
+    }
+    #skills span img {
+        margin: 10px;
+        height: 55px;
+    }
+    div.social-media {
+        display: none;
+    }
+    div.social-media- {
+        display: inline-block !important;
+        float: none !important;
+        margin-bottom: 10px !important;
+    }
+    div.social-media-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+body {
+    background-color: skyblue;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom right, rgb(84, 135, 230), skyblue, white);
+}
+
+.header {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.459);
+    width: 100%;
+    display: inline-block;
+    padding: 3px 0px;
+    background-color: darksalmon;
+    position: sticky;
+    top: 0;
+}
+
+.header-button {
+    padding: 5px 5px;
+    border-radius: 3px;
+    float: left;
+    margin: 5px 5px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    text-shadow: 0.7px 0.7px black, -0.7px 0.7px black, 0.7px -0.7px black, -0.7px -0.7px black;
+}
+
+.header-button:hover {
+    background-color: rgb(201, 112, 82);
+}
+
+div.social-media,
+div.social-media- {
+    float: right;
+    padding: 6px 12.39px;
+    margin: 1px 4px;
+    font-size: 30px;
+    color: black;
+    border-radius: 9000px;
+}
+
+@keyframes move-right {
+    to {
+        margin-right: 4px;
+    }
+}
+
+.header div.social-media {
+    margin-right: 20px;
+    animation: move-right 1s ease-out forwards;
+}
+
+div.social-media- {
+    display: none;
+}
+
+#insta:hover {
+    color: white;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+#twitter:hover {
+    color: white;
+    background-color: #1da1f2;
+}
+
+#github:hover {
+    color: white;
+    background-color: black;
+}
+
+#linkedin:hover {
+    color: white;
+    background-color: #2867b2;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+.contents {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 40px 0px;
+}
+
+.box {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(68, 68, 68);
+    max-width: 260px;
+}
+
+div.box {
+    margin-left: 80px;
+    animation: move-left 1s ease-out forwards;
+}
+
+@keyframes move-left {
+    to {
+        margin-left: 20px;
+    }
+}
+
+.inner-box {
+    background-color: rgb(247, 247, 247);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+    transition: width 0.7s, height 0.7s, box-shadow 0.7s;
+    border-radius: 10px;
+}
+
+.image img:hover {
+    width: 110px;
+    height: 110px;
+    box-shadow: -2px -2px 10px rgb(68, 68, 68);
+}
+
+div.title {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    color: white;
+}
+
+.github-code {
+    background-color: rgb(36, 34, 34);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.github-code:hover {
+    background-color: black;
+}
+
+html {
+    min-height: 100%;
+}
+
+#skills_used {
+    width: 49%;
+    height: auto;
+}
+
+.svg {
+    width: 49%;
+    height: auto;
+}
+
+@keyframes fill_green {
+    100% {
+        fill: rgb(32, 230, 32);
+    }
+}
+
+#circle1 {
+    animation: fill_green 1.5s ease-in-out forwards;
+}
+
+#bar21 {
+    animation: fill_green 1.5s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+#bar22 {
+    animation: fill_green 2s ease-in-out forwards;
+    animation-delay: 2.4s;
+}
+
+#circle2 {
+    animation: fill_green 2s ease-in-out forwards;
+    animation-delay: 2.4s;
+}
+
+#bar31 {
+    animation: fill_green 1.5s ease-in-out forwards;
+    animation-delay: 3.2s;
+}
+
+#bar32 {
+    animation: fill_green 2s ease-in-out forwards;
+    animation-delay: 4s;
+}
+
+#circle3 {
+    animation: fill_green 2s ease-in-out forwards;
+    animation-delay: 4s;
+}
+
+.svg_projects_skills {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#skills_used h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(13, 13, 163);
+    font-weight: 400;
+}
+
+#skills_used {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skills img {
+    margin: 20px;
+    height: 80px;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
