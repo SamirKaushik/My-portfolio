@@ -157,15 +157,15 @@
         <div id="skills_used">
             <h1>My Skills & Projects</h1>
             <div id="skills">
-                <span><img src="cplusplus.png"></span>
-                <span><img src="java.png"></span>
-                <span><img src="html5.png"></span>
-                <span><img src="css3.png"></span>
-                <span><img src="javascript.png"></span>
-                <span><img src="git.png"></span>
-                <span><img src="github.png"></span>
-                <span><img src="netlify.png"></span>
-                <span><img src="figma.png"></span>
+                <span class="skill"><img src="skills/cplusplus.png"><span class="skill_hidden">C++</span></span>
+                <span class="skill"><img src="skills/java.png"><span class="skill_hidden">Java</span></span>
+                <span class="skill"><img src="skills/html5.png"><span class="skill_hidden">HTML5</span></span>
+                <span class="skill"><img src="skills/css3.png"><span class="skill_hidden">CSS3</span></span>
+                <span class="skill"><img src="skills/javascript.png"><span class="skill_hidden">JavaScript</span></span>
+                <span class="skill"><img src="skills/git.png"><span class="skill_hidden">Git</span></span>
+                <span class="skill"><img src="skills/github.png"><span class="skill_hidden">GitHub</span></span>
+                <span class="skill"><img src="skills/netlify.png"><span class="skill_hidden">Netlify</span></span>
+                <span class="skill"><img src="skills/figma.png"><span class="skill_hidden">Figma</span></span>
             </div>
         </div>
     </div>
@@ -231,6 +231,20 @@
         </div>
         </a>
     </div>
+    <script>
+      images=document.querySelectorAll('.skill img');
+      for(i=0;i<images.length;i++){
+        images[i].onmouseover=function(){
+        this.parentNode.style.color="skyblue";
+      }
+    }
+    for(i=0;i<images.length;i++){
+        images[i].onmouseout=function(){
+        this.parentNode.style.color="rgba(255, 255, 255, 0)";
+      }
+    }
+
+    </script>
 </body>
 
 </html>
