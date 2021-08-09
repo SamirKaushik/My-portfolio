@@ -193,15 +193,10 @@ h1 a {
 }
 
 div.box {
-    margin-left: 80px;
-    animation: move-left 1s ease-out forwards;
+    margin-left: 20px;
 }
 
-@keyframes move-left {
-    to {
-        margin-left: 20px;
-    }
-}
+
 
 .inner-box {
     background-color: rgb(247, 247, 247);
