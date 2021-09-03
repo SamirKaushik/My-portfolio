@@ -261,18 +261,8 @@
     </div>
     </a>
   </div>
-  <script>
-    images = document.querySelectorAll('.skill img');
-    for (i = 0; i < images.length; i++) {
-      images[i].onmouseover = function () {
-        this.parentNode.style.color = "skyblue";
-      }
-    }
-    for (i = 0; i < images.length; i++) {
-      images[i].onmouseout = function () {
-        this.parentNode.style.color = "rgba(255, 255, 255, 0)";
-      }
-    }
+  <div class="toggle-dark" title="Dark Mode"><i class='fas fa'>&#xf186;</i></div>
+  <script src="darkmode.js">
 
   </script>
 </body>
