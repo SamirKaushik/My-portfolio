@@ -31,7 +31,7 @@ toggle.onclick = function () {
         this.style.background = "inherit";
       }
     }
-    body.style.background = "linear-gradient(to bottom right,	rgb(40,40,40),gray)";
+    body.style.background = "linear-gradient(to top left,	rgb(40,40,40),gray)";
     document.querySelector(".about-me p").style.color = "white";
     coffee.style.background = "black";
     coffee.style.border = "black 1px solid";
@@ -48,6 +48,7 @@ toggle.onclick = function () {
 
     toggle.style.color = "white";
     toggle.style.background = "rgba(255, 255, 255, 0.11)";
+    toggle.style.boxShadow="0 0 8px white";
     document.querySelector(".sun").style.display = "inline-block";
     document.querySelector(".moon").style.display = "none";
   }
@@ -56,6 +57,7 @@ toggle.onclick = function () {
     document.querySelector(".moon").style.display = "inline-block";
     toggle.style.color = "black";
     toggle.style.background = "rgba(255, 255, 255, 0.11)";
+    toggle.style.boxShadow="0 0 8px black";
 
     document.querySelector(".header").style.background = "darksalmon";
     for (var i = 0; i < icons.length; i++) {
@@ -129,3 +131,4 @@ for (var i = 0; i < icons.length; i++) {
 document.querySelector(".sun").style.display = "none";
 toggle.style.color = "black";
 toggle.style.background = "rgba(255, 255, 255, 0.11)";
+toggle.style.boxShadow="0 0 8px black";

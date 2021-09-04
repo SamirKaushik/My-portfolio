@@ -197,8 +197,6 @@ div.box {
 }
 
 .inner-box {
-    background-color: rgb(247, 247, 247);
-    color: black;
     text-align: center;
     padding: 10px;
     border-radius: 10px 10px 0px 0px;

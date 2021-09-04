@@ -4,6 +4,7 @@ var icons = document.querySelectorAll(".social-media");
 var icons2 = document.querySelectorAll(".social-media-");
 var toggle = document.querySelector(".toggle-dark");
 var toggle_value = 0; //normal mode=0
+var boxes= document.querySelectorAll(".inner-box");
 toggle.onclick = function () {
   if (toggle_value == 0)
     toggle_value = 1;
@@ -30,19 +31,27 @@ toggle.onclick = function () {
         this.style.background = "inherit";
       }
     }
-    body.style.background = "linear-gradient(to bottom right,	rgb(40,40,40),gray)";
-    document.querySelector(".about-me p").style.color = "white";
+    body.style.background = "linear-gradient(to top left,	rgb(40,40,40),gray)";
+    
 
     toggle.style.color = "white";
     toggle.style.background = "rgba(255, 255, 255, 0.11)";
     document.querySelector(".sun").style.display = "inline-block";
     document.querySelector(".moon").style.display = "none";
+    toggle.style.boxShadow="0 0 8px white";
+    for(var i=0;i<boxes.length;i++){
+      boxes[i].style.background="rgba(255, 255, 255, 0.4)";
+    }
   }
   else {
+    for(var i=0;i<boxes.length;i++){
+      boxes[i].style.background="rgba(255, 255, 255, 0.801)";
+    }
     document.querySelector(".sun").style.display = "none";
     document.querySelector(".moon").style.display = "inline-block";
     toggle.style.color = "black";
     toggle.style.background = "rgba(255, 255, 255, 0.11)";
+    toggle.style.boxShadow="0 0 8px black";
 
     document.querySelector(".header").style.background = "darksalmon";
     for (var i = 0; i < icons.length; i++) {
@@ -68,7 +77,6 @@ toggle.onclick = function () {
       }
     }
     body.style.background = "linear-gradient(to bottom right, rgb(84, 135, 230), skyblue, white)";
-    document.querySelector(".about-me p").style.color = "rgb(0, 89, 255)";
     
   }
 }
@@ -94,5 +102,25 @@ for (var i = 0; i < icons.length; i++) {
 document.querySelector(".sun").style.display = "none";
 toggle.style.color = "black";
 toggle.style.background = "rgba(255, 255, 255, 0.11)";
+toggle.style.boxShadow="0 0 8px black";
+for(var i=0;i<boxes.length;i++){
+  boxes[i].style.background="rgba(255, 255, 255, 0.801)";
+}
 
- 
+ //code for skills that pop up on hovering
+
+ images = document.querySelectorAll('.skill img');
+    for (i = 0; i < images.length; i++) {
+      images[i].onmouseover = function () {
+        if(toggle_value==0)
+        this.parentNode.style.color = "skyblue";
+        else 
+        this.parentNode.style.color = "lightgrey";
+
+      }
+    }
+    for (i = 0; i < images.length; i++) {
+      images[i].onmouseout = function () {
+        this.parentNode.style.color = "rgba(255, 255, 255, 0)";
+      }
+    }
