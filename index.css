@@ -1,4 +1,7 @@
 @media only screen and (max-width: 950px) {
+  div.toggle-dark{
+    font-size: 27px;
+  }
   .content {
     flex-direction: column-reverse !important;
   }
@@ -17,6 +20,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+  div.toggle-dark{
+    font-size: 24px;
+  }
   div.header div.social-media {
     margin-right: 4px !important;
   }
@@ -36,6 +42,9 @@
 }
 
 @media only screen and (max-width: 432px) {
+  div.toggle-dark{
+    font-size: 21px;
+  }
   .svg {
     width: 90% !important;
     margin: auto;
@@ -58,6 +67,9 @@
 }
 
 @media only screen and (max-width: 350px) {
+  div.toggle-dark{
+    font-size: 18px;
+  }
   .svg {
     width: 95% !important;
     margin: auto;
@@ -74,6 +86,9 @@
 }
 
 @media only screen and (max-width: 263px) {
+  div.toggle-dark{
+    font-size: 15px;
+  }
   .svg {
     width: 99.9% !important;
     margin: auto;
@@ -90,6 +105,9 @@
 }
 
 @media only screen and (max-width: 240px) {
+  div.toggle-dark{
+    font-size: 13px;
+  }
   div.social-media- {
     margin-left: 0px !important;
     margin-right: 0px !important;

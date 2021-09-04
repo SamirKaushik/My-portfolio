@@ -4,6 +4,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Oswald&family=Satisfy&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Fraunces:ital@1&display=swap);
 @media only screen and (max-width:1171px) {
+    div.toggle-dark{
+        font-size: 28px;
+      }
     #skills span img {
         margin: 15px;
         height: 70px;
@@ -14,6 +17,9 @@
 }
 
 @media only screen and (max-width:975px) {
+    div.toggle-dark{
+        font-size: 26px;
+      }
     .svg_projects_skills {
         flex-direction: column!important;
         flex-wrap: wrap;
@@ -27,6 +33,9 @@
 }
 
 @media only screen and (max-width: 700px) {
+    div.toggle-dark{
+        font-size: 24px;
+      }
     div.contents {
         flex-direction: column;
         align-items: center;
@@ -34,6 +43,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    div.toggle-dark{
+        font-size: 22px;
+      }
     .svg_projects_skills .svg {
         width: 90%;
     }
@@ -43,6 +55,9 @@
 }
 
 @media only screen and (max-width:510px) {
+    div.toggle-dark{
+        font-size: 20px;
+      }
     .skill_hidden {
         top: -19.5px!important;
         font-size: 13.6px;
@@ -61,6 +76,9 @@
 }
 
 @media only screen and (max-width: 432px) {
+    div.toggle-dark{
+        font-size: 18px;
+      }
     .skill_hidden {
         top: -16px!important;
         font-size: 13px;
@@ -89,6 +107,9 @@
 }
 
 @media only screen and (max-width:300px) {
+    div.toggle-dark{
+        font-size: 16px;
+      }
     .box {
         width: 85%!important;
     }
