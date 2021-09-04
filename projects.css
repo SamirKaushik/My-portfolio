@@ -196,8 +196,6 @@ div.box {
     margin-left: 20px;
 }
 
-
-
 .inner-box {
     background-color: rgb(247, 247, 247);
     color: black;
@@ -359,17 +357,13 @@ html {
     position: relative;
     top: -28px;
 }
-.toggle-dark{
+
+.toggle-dark {
     position: fixed;
     bottom: 50px;
     left: -1px;
     font-size: 30px;
-    background-color: rgba(255, 255, 255, 0.11);
     padding: 5px 10px;
-    border:black solid 1px;
+    border: black solid 1px;
     border-radius: 0 100px 100px 0;
-  }
-  .toggle-dark:hover{
-    background-color: black;
-    color: white;
-  }
+}
