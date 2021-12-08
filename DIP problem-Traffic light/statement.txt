@@ -1,0 +1,15 @@
+Problem Statement
+You have to create a python script to find out the colour of the traffic signal passed as an image
+The trafic signal will always be in a form of blue rectangle having three circle with their respective colour (red,blue,green) or white (white represents off)
+outside the blue rectange there can be any shape with any colour except a blue rectange.
+Your function must take an image as an input and return a string as output with 4 possible values i.e "RED","YELLOW","GREEN","ERROR"
+Your can assume the colors for cours used for tarfic signal are constant and wont change (you can find out their values)
+	
+the base code is provided to you with the task and some test cases are also provided here 
+but we will test your codes on more custom cases.
+solution.py file is provided as the base code , use that and submission file must be in that format only , please do not change the function names or their input arguments 
+
+submission
+submit your solution file in the attached google form with the filename as name_rollnumber.py
+https://forms.gle/mGYvY42xBu7yA4sMA
+
