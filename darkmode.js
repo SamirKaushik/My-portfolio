@@ -132,3 +132,21 @@ document.querySelector(".sun").style.display = "none";
 toggle.style.color = "black";
 toggle.style.background = "rgba(255, 255, 255, 0.11)";
 toggle.style.boxShadow="0 0 8px black";
+
+ //code for skills that pop up on hovering
+
+ images = document.querySelectorAll('.skill img');
+    for (i = 0; i < images.length; i++) {
+      images[i].onmouseover = function () {
+        if(toggle_value==0)
+        this.parentNode.style.color = "skyblue";
+        else 
+        this.parentNode.style.color = "lightgrey";
+
+      }
+    }
+    for (i = 0; i < images.length; i++) {
+      images[i].onmouseout = function () {
+        this.parentNode.style.color = "rgba(255, 255, 255, 0)";
+      }
+    }

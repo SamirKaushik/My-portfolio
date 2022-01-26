@@ -107,20 +107,4 @@ for(var i=0;i<boxes.length;i++){
   boxes[i].style.background="rgba(255, 255, 255, 0.801)";
 }
 
- //code for skills that pop up on hovering
 
- images = document.querySelectorAll('.skill img');
-    for (i = 0; i < images.length; i++) {
-      images[i].onmouseover = function () {
-        if(toggle_value==0)
-        this.parentNode.style.color = "skyblue";
-        else 
-        this.parentNode.style.color = "lightgrey";
-
-      }
-    }
-    for (i = 0; i < images.length; i++) {
-      images[i].onmouseout = function () {
-        this.parentNode.style.color = "rgba(255, 255, 255, 0)";
-      }
-    }
