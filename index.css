@@ -234,6 +234,12 @@ div.social-media- {
   font-size: 40px;
   font-family: "Satisfy";
   margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about-me h3 span{
+  margin: 0 4px;
 }
 
 .about-me p {
