@@ -26,7 +26,7 @@ export let project= [
         image: "miniprojects.png",
         completed: "* * *",
         details: "Simple utility apps like Stopwatch, To-do List, Digital Clock etc. and other miniprojects. ",
-        github: "https://github.com/SamirKaushik/learning-and-playing-with-html-css-js"
+        github: "https://github.com/SamirKaushik/Mini-Projects"
     }, {
         title: "W3Schools Clone",
         link: "w3schools clone/w3school_clone.html",
