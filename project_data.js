@@ -22,7 +22,7 @@ export let project= [
         github: "https://github.com/SamirKaushik/My-portfolio/tree/master/calculator"
     }, {
         title: "Mini Projects",
-        link: "https://samirkaushik.github.io/learning-and-playing-with-html-css-js/",
+        link: "https://samirkaushik.github.io/Mini-Projects/",
         image: "miniprojects.png",
         completed: "* * *",
         details: "Simple utility apps like Stopwatch, To-do List, Digital Clock etc. and other miniprojects. ",
