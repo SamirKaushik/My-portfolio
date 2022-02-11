@@ -101,9 +101,7 @@ body {
     text-shadow: 0.7px 0.7px black, -0.7px 0.7px black, 0.7px -0.7px black, -0.7px -0.7px black;
 }
 
-.header-button:hover {
-    background-color: rgb(201, 112, 82);
-}
+
 
 div.social-media, div.social-media- {
     float: right;

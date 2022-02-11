@@ -200,9 +200,7 @@ body {
   text-shadow: 0.7px 0.7px black, -0.7px 0.7px black, 0.7px -0.7px black, -0.7px -0.7px black;
 }
 
-.header-button:hover {
-  background-color: rgb(201, 112, 82);
-}
+
 
 @keyframes move-right {
   to {
@@ -334,7 +332,7 @@ div.social-media- {
   }
 }
 
-#buy_me_coffee {
+#buy_me_coffee:hover {
   transition: background-color 0.6s, color 0.6s, border 0.6s;
 }
 
