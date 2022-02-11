@@ -73,10 +73,10 @@
 }
 
 body {
-    background-color: skyblue;
+    
     font-family: "Source Sans Pro", sans-serif;
     margin: 0;
-    background: linear-gradient(to bottom right, rgb(84, 135, 230), skyblue, white);
+    
 }
 
 .header {
@@ -84,7 +84,7 @@ body {
     width: 100%;
     display: inline-block;
     padding: 3px 0px;
-    background-color: darksalmon;
+    
     position: sticky;
     top: 0;
 }
