@@ -171,10 +171,10 @@ html {
 }
 
 body {
-  
+  background-color: skyblue;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
- 
+  background-image: radial-gradient( circle at 80% 40%, white 4%, skyblue 50%, cornflowerblue 100%);
   background-size: cover;
 }
 
@@ -183,7 +183,7 @@ body {
   width: 100%;
   display: inline-block;
   padding: 3px 0px;
-  
+  background-color: darksalmon;
   position: sticky;
   top: 0;
 }
