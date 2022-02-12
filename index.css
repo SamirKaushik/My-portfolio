@@ -257,7 +257,7 @@ div.social-media- {
 
 @keyframes move-up {
   to {
-    transform: translateY(0px);
+    margin-top: 0px;
   }
 }
 
@@ -269,8 +269,7 @@ div.social-media- {
   align-items: center;
   justify-content: center;
   animation: move-up 1s ease-out forwards;
-  transform: translateY(60px);
-  z-index: -1;
+  margin-top: 80px;
 }
 
 .about-me h1 {
