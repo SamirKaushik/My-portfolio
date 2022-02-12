@@ -29,7 +29,7 @@
   .about-me {
     width: 90.99% !important;
     margin: auto;
-    margin-top: 0px !important;
+    transform: translateY(0px)!important;
   }
   .svg {
     width: 77% !important;
