@@ -213,12 +213,19 @@ div.title {
     position: relative;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 1px;
+    border-radius: 10px 10px 0 0;
 }
 div.date_completion{
     position: relative;
     padding: 5px;
     color: white;
+    margin-top: 17px;
     background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0 0 10px 10px;
+}
+div.project_details{
+    margin-top: 10px;
 }
 a {
     text-decoration: none;

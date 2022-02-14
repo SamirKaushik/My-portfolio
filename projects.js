@@ -15,7 +15,6 @@ for (var i = 0; i < project.length; i++) {
     <div class="date_completion">
      ${project[i].completed}
     </div>
-     <hr>
      <div class="project_details">
      ${project[i].details}
      </div>
