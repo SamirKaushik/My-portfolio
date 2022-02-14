@@ -34,7 +34,7 @@ export let project= [
     {
         title: "W3Schools Clone",
         link: "w3schools clone/w3school_clone.html",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png",
+        image: "https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s900-c-k-c0x00ffffff-no-rj",
         completed: "Completed: 1 June, 2021",
         details: "Made using HTML, CSS",
         github: "https://github.com/SamirKaushik/My-portfolio/tree/master/w3schools%20clone"
