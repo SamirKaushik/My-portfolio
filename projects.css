@@ -216,6 +216,7 @@ div.title {
 }
 div.date_completion{
     position: relative;
+    padding: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
 }
