@@ -17,47 +17,51 @@
     @import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
     @import url(https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Oswald&family=Satisfy&display=swap);
     @import url(https://fonts.googleapis.com/css2?family=Fraunces:ital@1&display=swap);
+
     #spinner {
-        position: absolute;
-        z-index: 3;
-        background-color: whitesmoke;
-        min-height: 100vh;
-        min-width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      position: absolute;
+      z-index: 3;
+      background-color: whitesmoke;
+      min-height: 100vh;
+      min-width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    #spinner svg{
-        animation: spin 0.5s linear infinite;
-        width: 100px;
+
+    #spinner svg {
+      width: 100px;
+      animation: spin 0.5s linear infinite;
     }
+
     @keyframes spin {
-        to{
-          transform: rotateZ(360deg);
-        }
+      to {
+        transform: rotateZ(360deg);
+      }
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <div id="spinner"><svg version="1.1" viewBox="-58 -58 116 116" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
-    <g stroke-linecap="round" stroke-width="15">
-    <path id="a" d="m0 35 0,14"/>
-    <use transform="rotate(210)" xlink:href="#a" stroke="#f0f0f0"/>
-    <use transform="rotate(240)" xlink:href="#a" stroke="#ebebeb"/>
-    <use transform="rotate(270)" xlink:href="#a" stroke="#d3d3d3"/>
-    <use transform="rotate(300)" xlink:href="#a" stroke="#bcbcbc"/>
-    <use transform="rotate(330)" xlink:href="#a" stroke="#a4a4a4"/>
-    <use transform="rotate(0)" xlink:href="#a" stroke="#8d8d8d"/>
-    <use transform="rotate(30)" xlink:href="#a" stroke="#757575"/>
-    <use transform="rotate(60)" xlink:href="#a" stroke="#5e5e5e"/>
-    <use transform="rotate(90)" xlink:href="#a" stroke="#464646"/>
-    <use transform="rotate(120)" xlink:href="#a" stroke="#2f2f2f"/>
-    <use transform="rotate(150)" xlink:href="#a" stroke="#171717"/>
-    <use transform="rotate(180)" xlink:href="#a" stroke="#000"/>
-    </g>
-    </svg>    
+  <div id="spinner"><svg version="1.1" viewBox="-58 -58 116 116" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g stroke-linecap="round" stroke-width="15">
+        <path id="a" d="m0 35 0,14" />
+        <use transform="rotate(210)" xlink:href="#a" stroke="#f0f0f0" />
+        <use transform="rotate(240)" xlink:href="#a" stroke="#ebebeb" />
+        <use transform="rotate(270)" xlink:href="#a" stroke="#d3d3d3" />
+        <use transform="rotate(300)" xlink:href="#a" stroke="#bcbcbc" />
+        <use transform="rotate(330)" xlink:href="#a" stroke="#a4a4a4" />
+        <use transform="rotate(0)" xlink:href="#a" stroke="#8d8d8d" />
+        <use transform="rotate(30)" xlink:href="#a" stroke="#757575" />
+        <use transform="rotate(60)" xlink:href="#a" stroke="#5e5e5e" />
+        <use transform="rotate(90)" xlink:href="#a" stroke="#464646" />
+        <use transform="rotate(120)" xlink:href="#a" stroke="#2f2f2f" />
+        <use transform="rotate(150)" xlink:href="#a" stroke="#171717" />
+        <use transform="rotate(180)" xlink:href="#a" stroke="#000" />
+      </g>
+    </svg>
   </div>
   <div class="header">
     <a href="index.html" title="Home">
@@ -356,8 +360,8 @@
   </div></a></div>
   <div class="toggle-dark"><i class='fas fa sun'>&#xf185;</i><i class='fas fa moon'>&#xf186;</i></div>
   <script>
-    window.onload=()=>{
-      document.getElementById("spinner").style.display="none";
+    window.onload = () => {
+      document.getElementById("spinner").style.display = "none";
     }
   </script>
   <script src="darkmode.js"></script>
