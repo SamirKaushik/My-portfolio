@@ -3,8 +3,8 @@ import { project } from './project_data.js';
 
 for (var i = 0; i < project.length; i++) {
   document.getElementById("contents").innerHTML += `
-    <a href="${project[i].link}" target="_blank">
-<div class="box">
+    
+<div class="box"><a href="${project[i].link}" target="_blank">
   <div class="inner-box" style="background: rgba(255, 255, 255, 0.8);">
     <div class="title">${project[i].title}</div>
       <div class="image">
@@ -23,6 +23,6 @@ for (var i = 0; i < project.length; i++) {
     rel="noopener noreferrer">
     <div class="github-code">Code on Github</div>
   </a>-->
-</div>
-</a>`;
+</a></div>
+`;
 }
