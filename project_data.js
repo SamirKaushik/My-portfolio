@@ -24,6 +24,14 @@ export let project= [
     //     github: "https://github.com/SamirKaushik/My-portfolio/tree/master/DIP%20problem-Traffic%20light"
     // }, 
     {
+        title: "Mini Projects",
+        link: "https://samirkaushik.github.io/Mini-Projects/",
+        image: "miniprojects.png",
+        completed: "<br>",
+        details: "Simple utility apps like Stopwatch, Digital Clock etc. and other mini-projects. ",
+        github: "https://github.com/SamirKaushik/Mini-Projects"
+    }, 
+    {
         title: "Snake Game",
         link: "snake%20game/snake_game.html",
         image: "snake%20game/Snake-JavaScript-master/img/ground.png",
@@ -39,14 +47,7 @@ export let project= [
         details: "My first JS project",
         github: "https://github.com/SamirKaushik/My-portfolio/tree/master/calculator"
     }, 
-    {
-        title: "Mini Projects",
-        link: "https://samirkaushik.github.io/Mini-Projects/",
-        image: "miniprojects.png",
-        completed: "<br>",
-        details: "Simple utility apps like Stopwatch, Digital Clock etc. and other mini-projects. ",
-        github: "https://github.com/SamirKaushik/Mini-Projects"
-    }, 
+    
     {
         title: "W3Schools Clone",
         link: "w3schools clone/w3school_clone.html",
