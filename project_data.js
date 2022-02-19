@@ -3,8 +3,16 @@ export let project= [
         title: "News India",
         link: "https://news-india-sk.netlify.app",
         image: "news-india.png",
-        completed: "Completed: 19 January, 2022",
+        completed: "Completed: 19 February, 2022",
         details: "A React app that uses News API to fetch latest news of all categories. Sample view has been provided as the API isn't free for web deployed projects. ",
+        github: ""
+    },
+    {
+        title: "To Do List",
+        link: "https://to-do-list-sk.netlify.app",
+        image: "to-do-list.png",
+        completed: "Completed: 30 January, 2022",
+        details: "My first react project. A simple To-do list app.",
         github: ""
     },
     // {
@@ -36,7 +44,7 @@ export let project= [
         link: "https://samirkaushik.github.io/Mini-Projects/",
         image: "miniprojects.png",
         completed: "<br>",
-        details: "Simple utility apps like Stopwatch, To-do List, Digital Clock etc. and other miniprojects. ",
+        details: "Simple utility apps like Stopwatch, Digital Clock etc. and other mini-projects. ",
         github: "https://github.com/SamirKaushik/Mini-Projects"
     }, 
     {
