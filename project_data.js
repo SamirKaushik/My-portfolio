@@ -1,4 +1,12 @@
 export let project= [
+    {
+        title: "News India",
+        link: "https://news-india-sk.netlify.app",
+        image: "news-india.png",
+        completed: "Completed: 19 January, 2022",
+        details: "A React app that uses News API to fetch latest news of all categories. Sample view has been provided as the API isn't free for web deployed projects. ",
+        github: ""
+    },
     // {
     //     title: "DIP- Traffic Light",
     //     link: "https://github.com/SamirKaushik/My-portfolio/tree/master/DIP%20problem-Traffic%20light",
