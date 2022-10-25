@@ -1,5 +1,13 @@
 export let project= [
     {
+        title: "Rent Real Estate",
+        link: "https://rent-real-estate-sk.netlify.app",
+        image: "rent-real-estate.png",
+        completed: "Completed: 25 October, 2022",
+        details: "A Single Page React app that uses Real Estate data. It has filtering and searching functionality.",
+        github: ""
+    },
+    {
         title: "News India",
         link: "https://news-india-sk.netlify.app",
         image: "news-india.png",
