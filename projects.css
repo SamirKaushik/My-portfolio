@@ -174,7 +174,7 @@ h1 a {
     border-radius: 10px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     width: 260px;
-    transition: all 0.5s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
 }
 
 .box:hover {
@@ -226,6 +226,12 @@ div.date_completion{
 }
 div.project_details{
     margin-top: 10px;
+    max-height: 0;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+div.inner-box:hover div.project_details{
+    max-height: 110px;
 }
 a {
     text-decoration: none;

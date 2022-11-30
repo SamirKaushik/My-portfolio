@@ -5,7 +5,9 @@ for (var i = 0; i < project.length; i++) {
   document.getElementById("contents").innerHTML += `
     
 <div class="box"><a href="${project[i].link}" target="_blank">
-  <div class="inner-box" style="background: rgba(255, 255, 255, 0.8);">
+  <div class="inner-box" onhover="()=>{
+    this.lastInnerChild.style.height="maxContent"
+  }" style="background: rgba(255, 255, 255, 0.8);">
     <div class="title">${project[i].title}</div>
       <div class="image">
         <img
