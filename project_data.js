@@ -1,5 +1,13 @@
 export let project= [
     {
+        title: "Matchday",
+        link: "https://matchday-12015172-sk.netlify.app",
+        image: "matchday.png",
+        completed: "Completed: 30 November, 2022",
+        details: "A React app that fetches results of badminton championships. It has search functionality along with infinite scrolling. It also has a video page with button controls.",
+        github: ""
+    },
+    {
         title: "Rent Real Estate",
         link: "https://rent-real-estate-sk.netlify.app",
         image: "rent-real-estate.png",
@@ -23,14 +31,14 @@ export let project= [
         details: "My first react project. A simple To-do list app.",
         github: ""
     },
-    // {
-    //     title: "DIP- Traffic Light",
-    //     link: "https://github.com/SamirKaushik/My-portfolio/tree/master/DIP%20problem-Traffic%20light",
-    //     image: "DIP%20problem-Traffic%20light/test/test2.jpeg",
-    //     completed: "Completed: 14 November, 2021",
-    //     details: "Digital Image Processing program. It utilises OpenCV in Python and NumPy.",
-    //     github: "https://github.com/SamirKaushik/My-portfolio/tree/master/DIP%20problem-Traffic%20light"
-    // }, 
+    {
+        title: "DIP- Traffic Light",
+        link: "https://github.com/SamirKaushik/My-portfolio/tree/master/DIP%20problem-Traffic%20light",
+        image: "DIP%20problem-Traffic%20light/test/test2.jpeg",
+        completed: "Completed: 14 November, 2021",
+        details: "Digital Image Processing program. It utilises OpenCV in Python and NumPy.",
+        github: "https://github.com/SamirKaushik/My-portfolio/tree/master/DIP%20problem-Traffic%20light"
+    }, 
     {
         title: "Mini Projects",
         link: "https://samirkaushik.github.io/Mini-Projects/",
