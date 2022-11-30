@@ -4,7 +4,7 @@ export let project= [
         link: "https://matchday-12015172-sk.netlify.app",
         image: "matchday.png",
         completed: "Completed: 30 November, 2022",
-        details: "A React app that fetches results of badminton championships. It has search functionality along with infinite scrolling. It also has a video page with button controls.",
+        details: "Fetches data from Matchday API. Searching, infinite scrolling and a video page with button controls are some of its features",
         github: ""
     },
     {
