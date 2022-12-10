@@ -1,3 +1,6 @@
+*{
+  overflow-x: hidden;
+}
 @media only screen and (max-width:1171px) {
   #skills span img {
       margin: 15px;
@@ -306,6 +309,7 @@ div.social-media- {
 .svg {
   width: 49%;
   height: auto;
+  z-index: 2;
 }
 
 #hcp {
@@ -457,4 +461,60 @@ div.social-media- {
   color: inherit;
   position: relative;
   top: -28px;
+}
+
+.floating_birds{
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  border-radius: 10000px;
+  position: absolute;
+  left: -100px;
+  z-index: -2;
+}
+
+#b2{
+  animation-name: b2;
+  animation-duration:  26s;
+  animation-timing-function:  linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-delay: 3;
+}
+#b3{
+  animation-name: b3;
+  animation-duration:  18s;
+  animation-timing-function:  linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-delay: 0s;
+}
+
+@keyframes b2{
+  0%{left: -5%; top: 50%;}
+  15%{left: 15%; top: 52%;}
+  20%{left: 20%; top: 54%;}
+  30%{left: 30%; top: 56%}
+  35%{left: 35%; top: 58%;}
+  45%{left: 45%; top: 56%}
+  60%{left: 60%; top: 54%;}
+  75%{left: 75%; top: 56%;}
+  90%{left: 90%; top: 54%;}
+  100%{left: 100%; top: 52%;}
+}
+@keyframes b3{
+  0%{left: -2%; top: 30%;}
+  15%{left: 15%; top: 33%;}
+  20%{left: 20%; top: 36%;}
+  30%{left: 30%; top: 39%}
+  35%{left: 35%; top: 36%;}
+  45%{left: 45%; top: 33%}
+  60%{left: 60%; top: 30%;}
+  75%{left: 75%; top: 27%;}
+  90%{left: 90%; top: 24%;}
+  100%{left: 100%; top: 21%;}
+}
+
+body{
+  overflow-x: hidden;
 }
